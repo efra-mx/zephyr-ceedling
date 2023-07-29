@@ -1,0 +1,3 @@
+tests:
+  cmock:
+    tags: cmock

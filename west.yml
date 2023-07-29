@@ -1,0 +1,14 @@
+manifest:
+  self:
+    path: zephyr-ceedling
+
+  remotes:
+    - name: throwtheswitch
+      url-base: https://github.com/ThrowTheSwitch
+
+  projects:
+    - name: ceedling
+      path: test/ceedling
+      remote: throwtheswitch
+      revision: v0.31.1
+      submodules: true

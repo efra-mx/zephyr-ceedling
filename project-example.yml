@@ -1,0 +1,22 @@
+manifest:
+  self:
+    path: zephyr-ceedling
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: efra-mx
+      url-base: https://github.com/efra-mx/
+
+  projects:
+    - name: zephyr
+      path: zephyr
+      remote: zephyrproject-rtos
+      revision: v3.4.0
+      import: true
+
+    - name: zephyr-ceedling
+      path: zephyr-ceedling
+      remote: efra-mx
+      revision: main
+      import: true
